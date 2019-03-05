@@ -1,0 +1,196 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: PG Specimen BK.indd
+
+PACKAGE DATE: 11/05/2006 23:35
+Creation Date: 11/05/2006
+Modification Date: 11/05/2006
+
+CONTACT INFORMATION
+
+Company Name: RHYTHMVS. Grafisch Atelier
+Contact:
+Address:
+
+
+
+
+Phone:
+Fax:
+Email:
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page1, 2, 17, 31, 32, A
+
+FONTS
+24 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Roman Fonts
+- Name: AGaramondPro-Bold; Type: OpenType Type 1, Status: OK
+- Name: AGaramondPro-BoldItalic; Type: OpenType Type 1, Status: OK
+- Name: AGaramondPro-Italic; Type: OpenType Type 1, Status: OK
+- Name: AGaramondPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: AGaramondPro-Semibold; Type: OpenType Type 1, Status: OK
+- Name: AGaramondPro-SemiboldItalic; Type: OpenType Type 1, Status: OK
+- Name: AJensonPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+- Name: BemboStd; Type: OpenType Type 1, Status: OK
+- Name: Garamond; Type: OpenType TrueType, Status: OK
+- Name: Garamond-Italic; Type: OpenType TrueType, Status: OK
+- Name: Helvetica; Type: TrueType, Status: OK
+- Name: HelveticaNeueLTStd-Roman; Type: OpenType Type 1, Status: OK
+- Name: ITCGaramondStd-Bk; Type: OpenType Type 1, Status: OK
+- Name: MyriadPro-Cond; Type: OpenType Type 1, Status: OK
+- Name: MyriadPro-Light; Type: OpenType Type 1, Status: OK
+- Name: MyriadPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: StempelGaramondLTStd-Roman; Type: OpenType Type 1, Status: OK
+- Name: Times-Roman; Type: TrueType, Status: OK
+- Name: TimesNewRomanMTStd; Type: OpenType Type 1, Status: OK
+- Name: TimesNewRomanPSMT; Type: OpenType TrueType, Status: OK
+- Name: TrajanPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: TrebuchetMS; Type: OpenType TrueType, Status: OK
+- Name: ZapfChancery-MediumItalic; Type: TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 5 Spot Inks
+CMS is OFF
+
+- Name and Type: Process Cyan; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: Process Magenta; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: Process Yellow; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: Process Black; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: PANTONE 1345 C; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: PANTONE 160 C; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: PANTONE 3035 C; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: PANTONE Warm Gray 2 C; Angle: 0,000; Lines/Inch: 0,000
+- Name and Type: VERNIS; Angle: 0,000; Lines/Inch: 0,000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 211 Links Found; 0 Modified, 0 Missing
+Images: 0 Embedded, 0 use RGB colour space
+
+
+PRINT SETTINGS
+PPD: N/A, (EPSON AL-C1900 Advanced (Copy 1))
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: Yes
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Centre
+Printer's Marks: Crops
+Bleed: 0 in, 0 in, 0 in, 0 in
+Colour: Composite, Colours in Black.
+Trapping Mode: None
+Send Image Data: Optimised Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 125 mm x 175 mm
+Paper Dimensions: 209,973 mm x 297,011 mm
+Orientation: Landscape
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. PG Specimen BK.indd; type: Adobe InDesign publication; size: 18180K
+2. AGaramondPro-Bold.otf; type: Font file; size: 71K
+3. AGaramondPro-BoldItalic.otf; type: Font file; size: 73K
+4. AGaramondPro-Italic.otf; type: Font file; size: 87K
+5. AGaramondPro-Regular.otf; type: Font file; size: 116K
+6. AGaramondPro-Semibold.otf; type: Font file; size: 93K
+7. AGaramondPro-SemiboldItalic.otf; type: Font file; size: 75K
+8. AJensonPro-Regular.otf; type: Font file; size: 126K
+9. ARIAL.TTF; type: Font file; size: 289K
+10. bembostd.otf; type: Font file; size: 61K
+11. GARA.TTF; type: Font file; size: 192K
+12. GARAIT.TTF; type: Font file; size: 184K
+13. fi_9006c.ttf; type: Font file; size: 49K
+14. helveticaneueltstd-roman.otf; type: Font file; size: 26K
+15. itcgaramondstd-bk.otf; type: Font file; size: 41K
+16. MyriadPro-Cond.otf; type: Font file; size: 76K
+17. MyriadPro-Light.otf; type: Font file; size: 77K
+18. MyriadPro-Regular.otf; type: Font file; size: 77K
+19. stempelgaramondltstd-roman.otf; type: Font file; size: 50K
+20. fi_9007d.ttf; type: Font file; size: 60K
+21. timesnewromanmtstd.otf; type: Font file; size: 34K
+22. TIMES.TTF; type: Font file; size: 339K
+23. TrajanPro-Regular.otf; type: Font file; size: 64K
+24. trebucbi.ttf; type: Font file; size: 128K
+25. fi_90081.ttf; type: Font file; size: 59K
+26. 1px.tif; type: Linked file; size: 23K
+27. 1pxsq.tif; type: Linked file; size: 39K
+28. 2px.tif; type: Linked file; size: 18K
+29. 2pxsq.tif; type: Linked file; size: 35K
+30. 3px.tif; type: Linked file; size: 22K
+31. 3pxsq.tif; type: Linked file; size: 41K
+32. 4px.tif; type: Linked file; size: 18K
+33. 4pxsq.tif; type: Linked file; size: 31K
+34. bakmarmer_pms_FM20 zonder blauw en zwart.eps; type: Linked file; size: 152045K
+35. bakmarmer_pms_FM20.eps; type: Linked file; size: 152048K
+36. bakmarmer_quadri_AM133_C.tif; type: Linked file; size: 814K
+37. bakmarmer_quadri_AM133_K.tif; type: Linked file; size: 700K
+38. bakmarmer_quadri_AM133_M.tif; type: Linked file; size: 730K
+39. bakmarmer_quadri_AM133_Y.tif; type: Linked file; size: 741K
+40. bakmarmer_quadri_AM133vernis_C.tif; type: Linked file; size: 734K
+41. bakmarmer_quadri_AM133vernis_K.tif; type: Linked file; size: 641K
+42. bakmarmer_quadri_AM133vernis_M.tif; type: Linked file; size: 669K
+43. bakmarmer_quadri_AM133vernis_Y.tif; type: Linked file; size: 695K
+44. bakmarmer_quadri_AM150_C.tif; type: Linked file; size: 980K
+45. bakmarmer_quadri_AM150_K.tif; type: Linked file; size: 848K
+46. bakmarmer_quadri_AM150_M.tif; type: Linked file; size: 845K
+47. bakmarmer_quadri_AM150_Y.tif; type: Linked file; size: 707K
+48. bakmarmer_quadri_AM150vernis_C.tif; type: Linked file; size: 880K
+49. bakmarmer_quadri_AM150vernis_K.tif; type: Linked file; size: 782K
+50. bakmarmer_quadri_AM150vernis_M.tif; type: Linked file; size: 771K
+51. bakmarmer_quadri_AM150vernis_Y.tif; type: Linked file; size: 656K
+52. bakmarmer_quadri_AM200_C.tif; type: Linked file; size: 1057K
+53. bakmarmer_quadri_AM200_K.tif; type: Linked file; size: 938K
+54. bakmarmer_quadri_AM200_M.tif; type: Linked file; size: 959K
+55. bakmarmer_quadri_AM200_Y.tif; type: Linked file; size: 860K
+56. bakmarmer_quadri_AM200vernis_C.tif; type: Linked file; size: 942K
+57. bakmarmer_quadri_AM200vernis_K.tif; type: Linked file; size: 877K
+58. bakmarmer_quadri_AM200vernis_M.tif; type: Linked file; size: 878K
+59. bakmarmer_quadri_AM200vernis_Y.tif; type: Linked file; size: 805K
+60. bakmarmer_quadri_FM20_rgb.tif; type: Linked file; size: 114761K
+61. C BRANDON NR1.tif; type: Linked file; size: 108K
+62. C BRANDON NR2.tif; type: Linked file; size: 3222K
+63. C BRANDON NR3.tif; type: Linked file; size: 5279K
+64. C BRANDON NR4_PANTONE 160 C.tif; type: Linked file; size: 943K
+65. C BRANDON NR4_PANTONE 3035 C.tif; type: Linked file; size: 1128K
+66. C BRANDON NR4_PANTONE Warm Gray 2 C.tif; type: Linked file; size: 991K
+67. C BRANDON NR5_PANTONE 160 C.tif; type: Linked file; size: 1006K
+68. C BRANDON NR5_PANTONE 3035 C.tif; type: Linked file; size: 1101K
+69. C BRANDON NR5_PANTONE Warm Gray 2 C.tif; type: Linked file; size: 1108K
+70. C BRANDON NR6.eps; type: Linked file; size: 640K
+71. C KIKI.tif; type: Linked file; size: 5931K
+72. C LITHO NR1.tif; type: Linked file; size: 24682K
+73. C MIA NR1 vernis.tif; type: Linked file; size: 10010K
+74. C MIA NR1.tif; type: Linked file; size: 7964K
+75. C WIM NR1.tif; type: Linked file; size: 1578K
+76. C WIM NR2.tif; type: Linked file; size: 1537K
+77. C WIM NR3.tif; type: Linked file; size: 1572K
+78. C WIM NR4.tif; type: Linked file; size: 1575K
+79. C WIM NR5.tif; type: Linked file; size: 1574K
+80. C WIM NR6.tif; type: Linked file; size: 1571K
+81. ChristopherPlantin.eps; type: Linked file; size: 15076K
+82. ChristopherPlantinDrukkersmerk.eps; type: Linked file; size: 2943K
+83. Gutenberg B42 PMS.eps; type: Linked file; size: 10255K
+84. ligaturen.tif; type: Linked file; size: 507K
+85. PG Logo 2540.tif; type: Linked file; size: 302K
+86. registermerk.tif; type: Linked file; size: 12K
+87. rodenko.tif; type: Linked file; size: 233K
+88. teststrook paginabreedte.tif; type: Linked file; size: 297K

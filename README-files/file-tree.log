@@ -1,0 +1,703 @@
+$ tree -h -D
+.
+├── [9.0M Mar 17  2006]  01.tif
+├── [ 24K Mar 13  2006]  Bibliografie.doc
+├── [ 646 Jan 24  2007]  Bijdragen
+│   ├── [ 25K Apr 25  2006]  03.pdf
+│   ├── [1.1K Jan 24  2007]  Afbeeldingen
+│   │   ├── [109K Apr 25  2006]  C\ BRANDON\ NR1.tif
+│   │   ├── [583K Apr 25  2006]  C\ BRANDON\ NR2.tif
+│   │   ├── [200K Apr 25  2006]  C\ BRANDON\ NR3.tif
+│   │   ├── [ 64K Apr 27  2006]  C\ BRANDON\ NR4.eps
+│   │   ├── [ 61K Apr 27  2006]  C\ BRANDON\ NR5.eps
+│   │   ├── [ 66K Apr 27  2006]  C\ BRANDON\ NR6.eps
+│   │   ├── [ 33K Apr 26  2006]  C\ DAVY\ NR1.tif
+│   │   ├── [ 31K Apr 26  2006]  C\ DAVY\ NR2.tif
+│   │   ├── [ 33K Apr 26  2006]  C\ DAVY\ NR3.tif
+│   │   ├── [ 33K Apr 26  2006]  C\ DAVY\ NR4.tif
+│   │   ├── [ 40K Apr 26  2006]  C\ DAVY\ NR5.tif
+│   │   ├── [268K Apr 25  2006]  C\ GUTENBERG\ NR1.eps
+│   │   ├── [308K Apr 27  2006]  C\ LITHO\ NR1.tif
+│   │   ├── [210K Apr 27  2006]  C\ MIA\ NR1.tif
+│   │   ├── [195K Apr 25  2006]  C\ MIA\ NR2.tif
+│   │   ├── [ 79K Apr 25  2006]  C\ WIM\ NR1.tif
+│   │   ├── [ 77K Apr 25  2006]  C\ WIM\ NR2.tif
+│   │   ├── [ 76K Apr 25  2006]  C\ WIM\ NR3.tif
+│   │   ├── [ 78K Apr 25  2006]  C\ WIM\ NR4.tif
+│   │   ├── [ 77K Apr 25  2006]  C\ WIM\ NR5.tif
+│   │   ├── [ 76K Apr 25  2006]  C\ WIM\ NR6.tif
+│   │   ├── [ 272 Jan 24  2007]  PG\ templateDEF2\ Folder
+│   │   │   ├── [ 238 Jan 24  2007]  Fonts
+│   │   │   │   ├── [ 87K Oct 14  2003]  AGaramondPro-Italic.otf
+│   │   │   │   ├── [116K Oct 14  2003]  AGaramondPro-Regular.otf
+│   │   │   │   ├── [ 78K Oct 14  2003]  MyriadPro-Regular.otf
+│   │   │   │   ├── [400K Sep 18  2003]  Times.dfont
+│   │   │   │   └── [ 65K Oct 14  2003]  TrajanPro-Regular.otf
+│   │   │   ├── [ 238 Jan 24  2007]  Links
+│   │   │   │   ├── [1.8M Apr 25  2006]  Anatomy1.ai
+│   │   │   │   ├── [1.3M Apr 25  2006]  Anatomy2.ai
+│   │   │   │   ├── [717K Apr 25  2006]  Gedicht1.ai
+│   │   │   │   └── [666K Apr 25  2006]  Gedicht2.ai
+│   │   │   ├── [800K Apr 25  2006]  PG\ templateDEF2.indd
+│   │   │   ├── [599K Apr 25  2006]  PictoBert.eps
+│   │   │   └── [132K Apr 25  2006]  casus\ Brandon.pdf
+│   │   ├── [5.7M Apr 25  2006]  PG\ templateDEF2\ Folder.sitx
+│   │   ├── [4.3M Apr 26  2006]  RE\ TERP.eps
+│   │   ├── [2.3M May  8  2006]  Visit\ Aart\ brochove.eps
+│   │   ├── [2.3M May  8  2006]  Visit\ Aart\ brochove.tif
+│   │   ├── [3.3M May  8  2006]  Visit\ blaauwberg.eps
+│   │   ├── [239M Apr 27  2006]  bakmarmer\ CMYK.tif
+│   │   ├── [ 50K Apr 25  2006]  casus\ Brandon.jpg
+│   │   └── [679K May  8  2006]  visit\ Aart\ Bochove.pdf
+│   ├── [336K Mar 29  2006]  Brandon_omgezet.indd
+│   ├── [308K Mar 29  2006]  Brandon_omgezet_corrWS.indd
+│   ├── [ 306 Jan 24  2007]  Casus\ 2
+│   │   ├── [106K Feb 24  2006]  Casus\ 2.pdf
+│   │   ├── [388K Mar 31  2006]  casus\ 2.indd
+│   │   ├── [ 12K Feb 24  2006]  google\ 2.jpg
+│   │   ├── [305K Feb 24  2006]  google\ 2.tif
+│   │   ├── [401K Feb 24  2006]  google\ 3.tif
+│   │   ├── [ 99K Feb 24  2006]  google\ 4.psd
+│   │   └── [ 11K Feb 24  2006]  google.gif
+│   ├── [ 646 Jan 24  2007]  Casus\ 3
+│   │   ├── [498K Feb 25  2006]  Casus\ 3.pdf
+│   │   ├── [ 59K Mar 23  2006]  Casus\ 3a.pdf
+│   │   ├── [1.7M Mar 23  2006]  Casus\ 3b.pdf
+│   │   ├── [707K Apr 27  2006]  Gutenberg\ B42\ PMS.eps
+│   │   ├── [5.4M Apr 27  2006]  Gutenberg\ B42\ PMS.psd
+│   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS1
+│   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS2
+│   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS3
+│   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS4
+│   │   ├── [ 25M Feb 24  2006]  Gutenberg\ B42\ a.tif
+│   │   ├── [8.6M Feb 25  2006]  Gutenberg\ B42\ b.tif
+│   │   ├── [7.4M Apr 27  2006]  Gutenberg\ B42\ c.tif
+│   │   ├── [ 22K Apr 26  2006]  Word\ default\ 2.doc
+│   │   ├── [ 22K Feb 24  2006]  Word\ default.doc
+│   │   ├── [1.7M Apr 21  2006]  casus\ 3.indd
+│   │   ├── [ 13K Apr 26  2006]  word\ default\ 2.pdf
+│   │   └── [ 13K Feb 24  2006]  word\ default.pdf
+│   ├── [2.4M Mar 23  2006]  casus\ Brandon.indd
+│   ├── [ 51K Mar 20  2006]  casus\ davy.pdf
+│   ├── [395K Feb 24  2006]  casus1.pdf
+│   ├── [949K May  3  2006]  de\ weg\ kwijt\ hulpmateriaal.ai
+│   ├── [458K Apr 25  2006]  de\ weg\ kwijt\ teksten\ bis.ps
+│   ├── [116K Mar 26  2006]  de\ weg\ kwijt.pdf
+│   ├── [107K Mar 22  2006]  papier.pdf
+│   ├── [1.1M Mar 23  2006]  papierdefontwerp.fdf
+│   ├── [1.8M Mar 23  2006]  papierdefontwerp.indd
+│   ├── [548K Mar 22  2006]  pixelfonts.eps
+│   └── [ 51K Mar 23  2006]  pixelfonts.zip
+├── [ 56K Mar 31  2006]  Book\ 1.indb
+├── [1.8M Mar 31  2006]  Book\ 1.pdf
+├── [ 30K Feb 26  2006]  DOEN.doc
+├── [ 374 Jan 24  2007]  Extra\ eigen\ casussen
+│   ├── [136K Apr  6  2006]  dt\ ligatuur.FH11
+│   ├── [1.6M Apr 21  2006]  fonts\ NIEUW.indd
+│   ├── [143K Apr  6  2006]  fonts\ p2.pdf
+│   ├── [2.3M Apr 21  2006]  fonts.indd
+│   ├── [497K Mar 24  2006]  fonts.pdf
+│   ├── [644K Apr 21  2006]  ligaturen.indd
+│   ├── [508K Apr 20  2006]  ligaturen.tif
+│   ├── [ 16M Jan 23  2005]  literairekunst.tif
+│   └── [234K Apr 21  2006]  rodenko.tif
+├── [ 204 Jan 24  2007]  Fonts
+│   ├── [ 35K Apr 25  2006]  s061013d.PFB
+│   ├── [4.9K Apr 25  2006]  s061013d.pfm
+│   ├── [ 37K Apr 25  2006]  s061053d.PFB
+│   └── [4.5K Apr 25  2006]  s061053d.pfm
+├── [ 850 Jan 24  2007]  GRID
+│   ├── [187K Feb 24  2006]  Grid\ 2.pdf
+│   ├── [2.7K Mar 23  2006]  Metadata\ Specimen.xmp
+│   ├── [120K Feb  5  2006]  PG\ Project\ KaternPoster\ 2.indd
+│   ├── [788K Feb  5  2006]  PG\ Project\ KaternPoster.indd
+│   ├── [452K Apr 24  2006]  PG\ Specimen\ template.indt
+│   ├── [ 26K Mar 16  2006]  SPECIMEN\ Style\ sheet.doc
+│   ├── [128K Mar 16  2006]  SPECIMEN\ Zetinstructie\ 1.1.pdf
+│   ├── [368K Apr 24  2006]  Untitled-1.indt
+│   ├── [444K Mar 16  2006]  Zetinstructie.indd
+│   ├── [240K Feb 27  2006]  balk.indd
+│   ├── [708K Feb 24  2006]  grid\ 2.indd
+│   ├── [3.6K Mar 23  2006]  grid.pdf
+│   ├── [320K Feb  5  2006]  ideetje.pdf
+│   ├── [2.4M Apr 21  2006]  montage.indd
+│   ├── [156K Feb 26  2006]  pagina\ grid.indd
+│   ├── [188K Feb 27  2006]  style\ sheet\ 2.indd
+│   ├── [4.3M Apr  6  2006]  style\ sheet\ grid.eps
+│   ├── [ 64K Mar 16  2006]  style\ sheet\ grid.pdf
+│   ├── [368K Apr 24  2006]  style\ sheet\ template.indd
+│   ├── [364K Apr 21  2006]  style\ sheet\ template.indt
+│   ├── [508K Mar  3  2006]  style\ sheet.indd
+│   ├── [184K Feb 27  2006]  style\ sheet.indt
+│   └── [ 36K Mar  3  2006]  style\ sheet.pdf
+├── [ 25K Feb 25  2006]  INSOMNIA.pdf
+├── [1.3K Apr 28  2006]  ISBN.txt
+├── [203K Apr 25  2006]  Igepa.tif
+├── [ 476 Mar  4  9:31]  LAY\ OUT
+│   ├── [ 204 Mar  4  9:31]  Back-Up\ op\ 4\ mei\ 16u29
+│   │   ├── [ 238 Mar  4  9:31]  AF
+│   │   │   ├── [ 170 Jan 24  2007]  Bronbestanden\ Beelden
+│   │   │   │   ├── [9.5M May  4  2006]  Gutenberg\ B42\ PMS.eps
+│   │   │   │   ├── [142M May  4  2006]  bakmarmer_pms_FM20.eps
+│   │   │   │   └── [177M May 16  2006]  marmerpapier\ cockerell.rar
+│   │   │   ├── [ 204 Mar  4 10:50]  EPS
+│   │   │   │   ├── [ 102 Jan 24  2007]  PS
+│   │   │   │   │   └── [118M May 11  2006]  PG\ Specimen\ GVD\ Impositie\ Recto\ Flattened.ps
+│   │   │   │   ├── [368M May 11  2006]  recto.eps
+│   │   │   │   └── [193M May 11  2006]  verso.eps
+│   │   │   ├── [ 204 Mar  5 10:22]  InDesign\ Source\ Files
+│   │   │   │   ├── [ 204 Jan 24  2007]  Booklet
+│   │   │   │   │   ├── [ 884 Jan 24  2007]  Fonts
+│   │   │   │   │   │   ├── [ 72K Oct 14  2003]  AGaramondPro-Bold.otf
+│   │   │   │   │   │   ├── [ 73K Oct 14  2003]  AGaramondPro-BoldItalic.otf
+│   │   │   │   │   │   ├── [ 87K Oct 14  2003]  AGaramondPro-Italic.otf
+│   │   │   │   │   │   ├── [116K Oct 14  2003]  AGaramondPro-Regular.otf
+│   │   │   │   │   │   ├── [ 93K Oct 12  2003]  AGaramondPro-Semibold.otf
+│   │   │   │   │   │   ├── [ 76K Oct 12  2003]  AGaramondPro-SemiboldItalic.otf
+│   │   │   │   │   │   ├── [126K Oct 12  2003]  AJensonPro-Regular.otf
+│   │   │   │   │   │   ├── [290K Aug 23  2001]  ARIAL.TTF
+│   │   │   │   │   │   ├── [192K Nov 10  1998]  GARA.TTF
+│   │   │   │   │   │   ├── [185K Nov 10  1998]  GARAIT.TTF
+│   │   │   │   │   │   ├── [ 77K Oct 12  2003]  MyriadPro-Cond.otf
+│   │   │   │   │   │   ├── [ 77K Oct 14  2003]  MyriadPro-Light.otf
+│   │   │   │   │   │   ├── [ 78K Oct 14  2003]  MyriadPro-Regular.otf
+│   │   │   │   │   │   ├── [340K Aug 23  2001]  TIMES.TTF
+│   │   │   │   │   │   ├── [ 65K Oct 14  2003]  TrajanPro-Regular.otf
+│   │   │   │   │   │   ├── [ 62K Jun 12  2003]  bembostd.otf
+│   │   │   │   │   │   ├── [ 49K Mar 31  1999]  fi_9006c.ttf
+│   │   │   │   │   │   ├── [ 61K Mar 31  1999]  fi_9007d.ttf
+│   │   │   │   │   │   ├── [ 60K Mar 31  1999]  fi_90081.ttf
+│   │   │   │   │   │   ├── [ 27K Jun 12  2003]  helveticaneueltstd-roman.otf
+│   │   │   │   │   │   ├── [ 42K May 12  2003]  itcgaramondstd-bk.otf
+│   │   │   │   │   │   ├── [ 50K May 12  2003]  stempelgaramondltstd-roman.otf
+│   │   │   │   │   │   ├── [ 34K Jun 12  2003]  timesnewromanmtstd.otf
+│   │   │   │   │   │   └── [128K Aug 23  2001]  trebucbi.ttf
+│   │   │   │   │   ├── [2.2K Jan 24  2007]  Links
+│   │   │   │   │   │   ├── [ 24K May 10  2006]  1px.tif
+│   │   │   │   │   │   ├── [ 39K May 11  2006]  1pxsq.tif
+│   │   │   │   │   │   ├── [ 18K May 10  2006]  2px.tif
+│   │   │   │   │   │   ├── [ 36K May 11  2006]  2pxsq.tif
+│   │   │   │   │   │   ├── [ 23K May 10  2006]  3px.tif
+│   │   │   │   │   │   ├── [ 42K May 11  2006]  3pxsq.tif
+│   │   │   │   │   │   ├── [ 18K May 10  2006]  4px.tif
+│   │   │   │   │   │   ├── [ 32K May 11  2006]  4pxsq.tif
+│   │   │   │   │   │   ├── [108K Apr 25  2006]  C\ BRANDON\ NR1.tif
+│   │   │   │   │   │   ├── [3.1M Apr 25  2006]  C\ BRANDON\ NR2.tif
+│   │   │   │   │   │   ├── [5.2M Apr 23  2006]  C\ BRANDON\ NR3.tif
+│   │   │   │   │   │   ├── [943K May  8  2006]  C\ BRANDON\ NR4_PANTONE\ 160\ C.tif
+│   │   │   │   │   │   ├── [1.1M May  8  2006]  C\ BRANDON\ NR4_PANTONE\ 3035\ C.tif
+│   │   │   │   │   │   ├── [992K May  8  2006]  C\ BRANDON\ NR4_PANTONE\ Warm\ Gray\ 2\ C.tif
+│   │   │   │   │   │   ├── [1007K May  8  2006]  C\ BRANDON\ NR5_PANTONE\ 160\ C.tif
+│   │   │   │   │   │   ├── [1.1M May  8  2006]  C\ BRANDON\ NR5_PANTONE\ 3035\ C.tif
+│   │   │   │   │   │   ├── [1.1M May  8  2006]  C\ BRANDON\ NR5_PANTONE\ Warm\ Gray\ 2\ C.tif
+│   │   │   │   │   │   ├── [640K May  3  2006]  C\ BRANDON\ NR6.eps
+│   │   │   │   │   │   ├── [5.8M May 11  2006]  C\ KIKI.tif
+│   │   │   │   │   │   ├── [ 24M May  4  2006]  C\ LITHO\ NR1.tif
+│   │   │   │   │   │   ├── [9.8M May  9  2006]  C\ MIA\ NR1\ vernis.tif
+│   │   │   │   │   │   ├── [7.8M Apr 25  2006]  C\ MIA\ NR1.tif
+│   │   │   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR1.tif
+│   │   │   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR2.tif
+│   │   │   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR3.tif
+│   │   │   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR4.tif
+│   │   │   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR5.tif
+│   │   │   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR6.tif
+│   │   │   │   │   │   ├── [ 15M May 11  2006]  ChristopherPlantin.eps
+│   │   │   │   │   │   ├── [2.9M May 11  2006]  ChristopherPlantinDrukkersmerk.eps
+│   │   │   │   │   │   ├── [ 102 Jan 24  2007]  Gutenberg\ B42\ PMS
+│   │   │   │   │   │   │   └── [ 10M May  3  2006]  Gutenberg\ B42\ PMS.eps
+│   │   │   │   │   │   ├── [302K May 10  2006]  PG\ Logo\ 2540.tif
+│   │   │   │   │   │   ├── [ 102 Jan 24  2007]  bakmarmer_pms_FM20
+│   │   │   │   │   │   │   └── [148M May  3  2006]  bakmarmer_pms_FM20.eps
+│   │   │   │   │   │   ├── [ 102 Jan 24  2007]  bakmarmer_pms_FM20\ zonder\ blauw\ en\ zwart
+│   │   │   │   │   │   │   └── [148M May  4  2006]  bakmarmer_pms_FM20\ zonder\ blauw\ en\ zwart.eps
+│   │   │   │   │   │   ├── [815K May  8  2006]  bakmarmer_quadri_AM133_C.tif
+│   │   │   │   │   │   ├── [700K May  8  2006]  bakmarmer_quadri_AM133_K.tif
+│   │   │   │   │   │   ├── [730K May  8  2006]  bakmarmer_quadri_AM133_M.tif
+│   │   │   │   │   │   ├── [742K May  8  2006]  bakmarmer_quadri_AM133_Y.tif
+│   │   │   │   │   │   ├── [734K May  8  2006]  bakmarmer_quadri_AM133vernis_C.tif
+│   │   │   │   │   │   ├── [641K May  8  2006]  bakmarmer_quadri_AM133vernis_K.tif
+│   │   │   │   │   │   ├── [669K May  8  2006]  bakmarmer_quadri_AM133vernis_M.tif
+│   │   │   │   │   │   ├── [695K May  8  2006]  bakmarmer_quadri_AM133vernis_Y.tif
+│   │   │   │   │   │   ├── [980K May  8  2006]  bakmarmer_quadri_AM150_C.tif
+│   │   │   │   │   │   ├── [849K May  8  2006]  bakmarmer_quadri_AM150_K.tif
+│   │   │   │   │   │   ├── [845K May  8  2006]  bakmarmer_quadri_AM150_M.tif
+│   │   │   │   │   │   ├── [707K May  8  2006]  bakmarmer_quadri_AM150_Y.tif
+│   │   │   │   │   │   ├── [880K May  8  2006]  bakmarmer_quadri_AM150vernis_C.tif
+│   │   │   │   │   │   ├── [783K May  8  2006]  bakmarmer_quadri_AM150vernis_K.tif
+│   │   │   │   │   │   ├── [772K May  8  2006]  bakmarmer_quadri_AM150vernis_M.tif
+│   │   │   │   │   │   ├── [657K May  8  2006]  bakmarmer_quadri_AM150vernis_Y.tif
+│   │   │   │   │   │   ├── [1.0M May  8  2006]  bakmarmer_quadri_AM200_C.tif
+│   │   │   │   │   │   ├── [938K May  8  2006]  bakmarmer_quadri_AM200_K.tif
+│   │   │   │   │   │   ├── [959K May  8  2006]  bakmarmer_quadri_AM200_M.tif
+│   │   │   │   │   │   ├── [860K May  8  2006]  bakmarmer_quadri_AM200_Y.tif
+│   │   │   │   │   │   ├── [943K May  8  2006]  bakmarmer_quadri_AM200vernis_C.tif
+│   │   │   │   │   │   ├── [878K May  8  2006]  bakmarmer_quadri_AM200vernis_K.tif
+│   │   │   │   │   │   ├── [879K May  8  2006]  bakmarmer_quadri_AM200vernis_M.tif
+│   │   │   │   │   │   ├── [806K May  8  2006]  bakmarmer_quadri_AM200vernis_Y.tif
+│   │   │   │   │   │   ├── [112M May 11  2006]  bakmarmer_quadri_FM20_rgb.tif
+│   │   │   │   │   │   ├── [508K Apr 20  2006]  ligaturen.tif
+│   │   │   │   │   │   ├── [ 12K Apr 27  2006]  registermerk.tif
+│   │   │   │   │   │   ├── [234K Apr 21  2006]  rodenko.tif
+│   │   │   │   │   │   └── [298K May 11  2006]  teststrook\ paginabreedte.tif
+│   │   │   │   │   ├── [ 18M May 11  2006]  PG\ Specimen\ Booklet.indd
+│   │   │   │   │   └── [8.4K May 11  2006]  PG\ Specimen.txt
+│   │   │   │   ├── [ 170 Jan 24  2007]  Eigen\ Teststrip
+│   │   │   │   │   ├── [992K May 11  2006]  Eigen\ Teststrip.indd
+│   │   │   │   │   ├── [ 170 Jan 24  2007]  Fonts
+│   │   │   │   │   │   ├── [ 77K Oct 12  2003]  MyriadPro-Cond.otf
+│   │   │   │   │   │   ├── [ 78K Oct 14  2003]  MyriadPro-Regular.otf
+│   │   │   │   │   │   └── [ 65K Oct 14  2003]  TrajanPro-Regular.otf
+│   │   │   │   │   └── [ 340 Jan 24  2007]  Links
+│   │   │   │   │       ├── [ 24K May 10  2006]  1px.tif
+│   │   │   │   │       ├── [ 39K May 11  2006]  1pxsq.tif
+│   │   │   │   │       ├── [ 18K May 10  2006]  2px.tif
+│   │   │   │   │       ├── [ 36K May 11  2006]  2pxsq.tif
+│   │   │   │   │       ├── [ 23K May 10  2006]  3px.tif
+│   │   │   │   │       ├── [ 42K May 11  2006]  3pxsq.tif
+│   │   │   │   │       ├── [ 18K May 10  2006]  4px.tif
+│   │   │   │   │       └── [ 32K May 11  2006]  4pxsq.tif
+│   │   │   │   └── [ 170 Jan 24  2007]  Impositie
+│   │   │   │       ├── [  68 Jan 24  2007]  Links
+│   │   │   │       ├── [5.1M May 11  2006]  PG\ Specimen\ Impositie.indd
+│   │   │   │       └── [3.0K May 11  2006]  PG\ Specimen.txt
+│   │   │   └── [ 374 Mar  4  9:32]  PDFs
+│   │   │       ├── [292M May 11  2006]  PG\ Specimen\ GVD\ Booklet.pdf
+│   │   │       ├── [ 64M May 12  2006]  PG\ Specimen\ GVD\ Impositie\ Recto\ -\ Optimized.pdf
+│   │   │       ├── [190M May 11  2006]  PG\ Specimen\ GVD\ Impositie\ Recto.pdf
+│   │   │       ├── [ 37M May 12  2006]  PG\ Specimen\ GVD\ Impositie\ Verso\ -\ Optimized.pdf
+│   │   │       ├── [104M May 11  2006]  PG\ Specimen\ GVD\ Impositie\ Verso.pdf
+│   │   │       ├── [ 86M May 12  2006]  PostScript.pdf
+│   │   │       ├── [1.0G May 12  2006]  PostScript.ps
+│   │   │       └── [ 170 Jan 24  2007]  Reserve
+│   │   │           ├── [ 64M May 11  2006]  PG\ Specimen\ Impositie\ RoVo\ -\ Gecomprimeerd\ en\ alles\ in\ CMYK.pdf
+│   │   │           ├── [807K May 11  2006]  recto_pms3035c.pdf
+│   │   │           └── [ 16K May 11  2006]  recto_zwart.pdf
+│   │   ├── [ 340 Jan 24  2007]  InDesign\ Booklet
+│   │   │   ├── [2.1K Jan 24  2007]  Links
+│   │   │   │   ├── [ 24K May 10  2006]  1px.tif
+│   │   │   │   ├── [ 39K May 11  2006]  1pxsq.tif
+│   │   │   │   ├── [ 18K May 10  2006]  2px.tif
+│   │   │   │   ├── [ 36K May 11  2006]  2pxsq.tif
+│   │   │   │   ├── [ 23K May 10  2006]  3px.tif
+│   │   │   │   ├── [ 42K May 11  2006]  3pxsq.tif
+│   │   │   │   ├── [ 18K May 10  2006]  4px.tif
+│   │   │   │   ├── [ 32K May 11  2006]  4pxsq.tif
+│   │   │   │   ├── [108K Apr 25  2006]  C\ BRANDON\ NR1.tif
+│   │   │   │   ├── [3.1M Apr 25  2006]  C\ BRANDON\ NR2.tif
+│   │   │   │   ├── [5.2M Apr 23  2006]  C\ BRANDON\ NR3.tif
+│   │   │   │   ├── [627K May  3  2006]  C\ BRANDON\ NR4.eps
+│   │   │   │   ├── [645K May  3  2006]  C\ BRANDON\ NR5.eps
+│   │   │   │   ├── [640K May  3  2006]  C\ BRANDON\ NR6.eps
+│   │   │   │   ├── [5.8M May 11  2006]  C\ KIKI.tif
+│   │   │   │   ├── [ 24M May  4  2006]  C\ LITHO\ NR1.tif
+│   │   │   │   ├── [9.8M May  9  2006]  C\ MIA\ NR1\ vernis.tif
+│   │   │   │   ├── [7.8M Apr 25  2006]  C\ MIA\ NR1.tif
+│   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR1.tif
+│   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR2.tif
+│   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR3.tif
+│   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR4.tif
+│   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR5.tif
+│   │   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR6.tif
+│   │   │   │   ├── [ 15M May 11  2006]  ChristopherPlantin.eps
+│   │   │   │   ├── [218M May 10  2006]  ChristopherPlantin.tif
+│   │   │   │   ├── [2.9M May 11  2006]  ChristopherPlantinDrukkersmerk.eps
+│   │   │   │   ├── [4.1M May 11  2006]  ChristopherPlantinDrukkersmerk.tif
+│   │   │   │   ├── [ 102 Jan 24  2007]  Gutenberg\ B42\ PMS
+│   │   │   │   │   └── [ 10M May  3  2006]  Gutenberg\ B42\ PMS.eps
+│   │   │   │   ├── [302K May 10  2006]  PG\ Logo\ 2540.tif
+│   │   │   │   ├── [ 38K Apr 26  2006]  PG\ Logo.tif
+│   │   │   │   ├── [563K May 10  2006]  PKS_Electra_bw_V6.71c.eps
+│   │   │   │   ├── [ 237 May 10  2006]  WS_FTP.LOG
+│   │   │   │   ├── [ 102 Jan 24  2007]  bakmarmer_pms_FM20
+│   │   │   │   │   └── [148M May  3  2006]  bakmarmer_pms_FM20.eps
+│   │   │   │   ├── [ 102 Jan 24  2007]  bakmarmer_pms_FM20\ zonder\ blauw\ en\ zwart
+│   │   │   │   │   └── [148M May  4  2006]  bakmarmer_pms_FM20\ zonder\ blauw\ en\ zwart.eps
+│   │   │   │   ├── [4.0M May  8  2006]  bakmarmer_quadri_AM133_cmyk_raster.tif
+│   │   │   │   ├── [106K May  8  2006]  bakmarmer_quadri_AM133_cmyk_raster_mch.eps
+│   │   │   │   ├── [ 12M May  8  2006]  bakmarmer_quadri_AM133_cmyk_raster_mch1
+│   │   │   │   ├── [ 11M May  8  2006]  bakmarmer_quadri_AM133_cmyk_raster_mch2
+│   │   │   │   ├── [9.8M May  8  2006]  bakmarmer_quadri_AM133_cmyk_raster_mch3
+│   │   │   │   ├── [ 15M May  8  2006]  bakmarmer_quadri_AM133_cmyk_raster_mch4
+│   │   │   │   ├── [3.3M May  4  2006]  bakmarmer_quadri_AM133vernis_cmyk_raster.tif
+│   │   │   │   ├── [5.6M May  4  2006]  bakmarmer_quadri_AM150_cmyk_raster.tif
+│   │   │   │   ├── [4.2M May  4  2006]  bakmarmer_quadri_AM150vernis_cmyk_raster.tif
+│   │   │   │   ├── [5.2M May  4  2006]  bakmarmer_quadri_AM220_cmyk_raster.tif
+│   │   │   │   ├── [4.7M May  4  2006]  bakmarmer_quadri_AM220vernis_cmyk_raster.tif
+│   │   │   │   ├── [112M May 11  2006]  bakmarmer_quadri_FM20_rgb.tif
+│   │   │   │   ├── [ 80K May 11  2006]  eigen\ teststrip.pdf
+│   │   │   │   ├── [638K May 10  2006]  eigenteststrip.eps
+│   │   │   │   ├── [508K Apr 20  2006]  ligaturen.tif
+│   │   │   │   ├── [ 12K Apr 27  2006]  registermerk.tif
+│   │   │   │   ├── [234K Apr 21  2006]  rodenko.tif
+│   │   │   │   ├── [9.2K May 10  2006]  star.pdf
+│   │   │   │   ├── [8.8K May 10  2006]  star1.pdf
+│   │   │   │   ├── [ 37K May 10  2006]  star1inv.EPS
+│   │   │   │   ├── [6.3K May 10  2006]  star2.pdf
+│   │   │   │   ├── [ 34K May 10  2006]  star2inv.EPS
+│   │   │   │   ├── [ 11K May 10  2006]  star2inv.FH11
+│   │   │   │   ├── [3.9K May 10  2006]  star3.pdf
+│   │   │   │   └── [2.8M Apr 27  2006]  teststrip.tif
+│   │   │   ├── [5.0K May  4  2006]  PG\ Specimen
+│   │   │   ├── [ 21M May 11  2006]  PG\ Specimen\ BK.indd
+│   │   │   ├── [ 13M May 11  2006]  PG\ Specimen\ GRID\ VERANDERD.indd
+│   │   │   ├── [ 18M May 11  2006]  PG\ Specimen.indd
+│   │   │   ├── [1.4M May 11  2006]  eigen\ teststrip.indd
+│   │   │   ├── [356K May 11  2006]  kleurkaart\ 2.indd
+│   │   │   └── [296K May 11  2006]  kleurkaart.indd
+│   │   └── [ 204 Jan 24  2007]  InDesign\ Montage
+│   │       ├── [ 204 Jan 24  2007]  Links
+│   │       │   ├── [8.0K May 10  2006]  testbalk\ 4px.tif
+│   │       │   ├── [8.5K May  9  2006]  testbalk.tif
+│   │       │   ├── [298K May 11  2006]  teststrook\ paginabreedte.tif
+│   │       │   └── [1.4M May 11  2006]  teststrook.tif
+│   │       ├── [2.9K May  4  2006]  PG\ Specimen
+│   │       ├── [ 10M May 11  2006]  PG\ Specimen\ Montage\ Katern\ BK.indd
+│   │       └── [4.0M May  4  2006]  PG\ Specimen\ Montage\ Katern.indd
+│   ├── [ 612 Jan 24  2007]  FTP\ Plantin
+│   │   ├── [627K May  3  2006]  C\ BRANDON\ NR4.eps
+│   │   ├── [645K May  3  2006]  C\ BRANDON\ NR5.eps
+│   │   ├── [9.5M May  4  2006]  Gutenberg\ B42\ PMS.eps
+│   │   ├── [ 44M May  4  2006]  PG\ Specimen\ Montage\ GVD\ compressie.pdf
+│   │   ├── [ 24M May  8  2006]  TIFF_1Bit.zip
+│   │   ├── [2.1K May  4  2006]  WS_FTP.LOG
+│   │   ├── [142M May  4  2006]  bakmarmer_pms_FM20.eps
+│   │   ├── [859K May  4  2006]  bakmarmer_quadri_AM133_rgb.tif
+│   │   ├── [786K May  4  2006]  bakmarmer_quadri_AM133vernis_rgb.tif
+│   │   ├── [1.3M May  4  2006]  bakmarmer_quadri_AM150_rgb.tif
+│   │   ├── [899K May  4  2006]  bakmarmer_quadri_AM150vernis_rgb.tif
+│   │   ├── [2.5M May  4  2006]  bakmarmer_quadri_AM220_rgb.tif
+│   │   ├── [1.7M May  4  2006]  bakmarmer_quadri_AM220vernis_rgb.tif
+│   │   ├── [ 84M May  4  2006]  bakmarmer_quadri_FM20_rgb.tif
+│   │   ├── [1.9K Jan 24  2007]  geRIPped
+│   │   │   ├── [943K May  8  2006]  C\ BRANDON\ NR4_PANTONE\ 160\ C.tif
+│   │   │   ├── [1.1M May  8  2006]  C\ BRANDON\ NR4_PANTONE\ 3035\ C.tif
+│   │   │   ├── [992K May  8  2006]  C\ BRANDON\ NR4_PANTONE\ Warm\ Gray\ 2\ C.tif
+│   │   │   ├── [1007K May  8  2006]  C\ BRANDON\ NR5_PANTONE\ 160\ C.tif
+│   │   │   ├── [1.1M May  8  2006]  C\ BRANDON\ NR5_PANTONE\ 3035\ C.tif
+│   │   │   ├── [1.1M May  8  2006]  C\ BRANDON\ NR5_PANTONE\ Warm\ Gray\ 2\ C.tif
+│   │   │   ├── [716K May  8  2006]  bakmarmer_quadri_AM133_Black.tif
+│   │   │   ├── [815K May  8  2006]  bakmarmer_quadri_AM133_C.tif
+│   │   │   ├── [738K May  8  2006]  bakmarmer_quadri_AM133_Cyan.tif
+│   │   │   ├── [700K May  8  2006]  bakmarmer_quadri_AM133_K.tif
+│   │   │   ├── [730K May  8  2006]  bakmarmer_quadri_AM133_M.tif
+│   │   │   ├── [712K May  8  2006]  bakmarmer_quadri_AM133_Magenta.tif
+│   │   │   ├── [742K May  8  2006]  bakmarmer_quadri_AM133_Y.tif
+│   │   │   ├── [672K May  8  2006]  bakmarmer_quadri_AM133_Yellow.tif
+│   │   │   ├── [734K May  8  2006]  bakmarmer_quadri_AM133vernis_C.tif
+│   │   │   ├── [641K May  8  2006]  bakmarmer_quadri_AM133vernis_K.tif
+│   │   │   ├── [669K May  8  2006]  bakmarmer_quadri_AM133vernis_M.tif
+│   │   │   ├── [695K May  8  2006]  bakmarmer_quadri_AM133vernis_Y.tif
+│   │   │   ├── [649K May  8  2006]  bakmarmer_quadri_AM133vernist_Black.tif
+│   │   │   ├── [661K May  8  2006]  bakmarmer_quadri_AM133vernist_Cyan.tif
+│   │   │   ├── [651K May  8  2006]  bakmarmer_quadri_AM133vernist_Magenta.tif
+│   │   │   ├── [629K May  8  2006]  bakmarmer_quadri_AM133vernist_Yellow.tif
+│   │   │   ├── [879K May  8  2006]  bakmarmer_quadri_AM150_Black.tif
+│   │   │   ├── [980K May  8  2006]  bakmarmer_quadri_AM150_C.tif
+│   │   │   ├── [914K May  8  2006]  bakmarmer_quadri_AM150_Cyan.tif
+│   │   │   ├── [849K May  8  2006]  bakmarmer_quadri_AM150_K.tif
+│   │   │   ├── [845K May  8  2006]  bakmarmer_quadri_AM150_M.tif
+│   │   │   ├── [820K May  8  2006]  bakmarmer_quadri_AM150_Magenta.tif
+│   │   │   ├── [707K May  8  2006]  bakmarmer_quadri_AM150_Y.tif
+│   │   │   ├── [682K May  8  2006]  bakmarmer_quadri_AM150_Yellow.tif
+│   │   │   ├── [880K May  8  2006]  bakmarmer_quadri_AM150vernis_C.tif
+│   │   │   ├── [783K May  8  2006]  bakmarmer_quadri_AM150vernis_K.tif
+│   │   │   ├── [772K May  8  2006]  bakmarmer_quadri_AM150vernis_M.tif
+│   │   │   ├── [657K May  8  2006]  bakmarmer_quadri_AM150vernis_Y.tif
+│   │   │   ├── [808K May  8  2006]  bakmarmer_quadri_AM150vernist_Black.tif
+│   │   │   ├── [819K May  8  2006]  bakmarmer_quadri_AM150vernist_Cyan.tif
+│   │   │   ├── [744K May  8  2006]  bakmarmer_quadri_AM150vernist_Magenta.tif
+│   │   │   ├── [630K May  8  2006]  bakmarmer_quadri_AM150vernist_Yellow.tif
+│   │   │   ├── [928K May  8  2006]  bakmarmer_quadri_AM200_Black.tif
+│   │   │   ├── [1.0M May  8  2006]  bakmarmer_quadri_AM200_C.tif
+│   │   │   ├── [981K May  8  2006]  bakmarmer_quadri_AM200_Cyan.tif
+│   │   │   ├── [938K May  8  2006]  bakmarmer_quadri_AM200_K.tif
+│   │   │   ├── [959K May  8  2006]  bakmarmer_quadri_AM200_M.tif
+│   │   │   ├── [926K May  8  2006]  bakmarmer_quadri_AM200_Magenta.tif
+│   │   │   ├── [860K May  8  2006]  bakmarmer_quadri_AM200_Y.tif
+│   │   │   ├── [798K May  8  2006]  bakmarmer_quadri_AM200_Yellow.tif
+│   │   │   ├── [943K May  8  2006]  bakmarmer_quadri_AM200vernis_C.tif
+│   │   │   ├── [878K May  8  2006]  bakmarmer_quadri_AM200vernis_K.tif
+│   │   │   ├── [879K May  8  2006]  bakmarmer_quadri_AM200vernis_M.tif
+│   │   │   ├── [806K May  8  2006]  bakmarmer_quadri_AM200vernis_Y.tif
+│   │   │   ├── [875K May  8  2006]  bakmarmer_quadri_AM200vernist_Black.tif
+│   │   │   ├── [874K May  8  2006]  bakmarmer_quadri_AM200vernist_Cyan.tif
+│   │   │   ├── [851K May  8  2006]  bakmarmer_quadri_AM200vernist_Magenta.tif
+│   │   │   └── [754K May  8  2006]  bakmarmer_quadri_AM200vernist_Yellow.tif
+│   │   └── [  39 May  4  2006]  login.txt
+│   ├── [ 204 Jan 24  2007]  PG\ Specimen
+│   │   ├── [ 782 Jan 24  2007]  Fonts
+│   │   │   ├── [ 72K Oct 14  2003]  AGaramondPro-Bold.otf
+│   │   │   ├── [ 87K Oct 14  2003]  AGaramondPro-Italic.otf
+│   │   │   ├── [116K Oct 14  2003]  AGaramondPro-Regular.otf
+│   │   │   ├── [ 93K Oct 12  2003]  AGaramondPro-Semibold.otf
+│   │   │   ├── [ 76K Oct 12  2003]  AGaramondPro-SemiboldItalic.otf
+│   │   │   ├── [290K Aug 23  2001]  ARIAL.TTF
+│   │   │   ├── [192K Nov 10  1998]  GARA.TTF
+│   │   │   ├── [185K Nov 10  1998]  GARAIT.TTF
+│   │   │   ├── [340K Aug 23  2001]  TIMES.TTF
+│   │   │   ├── [ 65K Oct 14  2003]  TrajanPro-Regular.otf
+│   │   │   ├── [119K May 12  2003]  ajensonpro-ltdisp.otf
+│   │   │   ├── [ 62K Jun 12  2003]  bembostd.otf
+│   │   │   ├── [ 49K Mar 31  1999]  fi_9006c.ttf
+│   │   │   ├── [ 61K Mar 31  1999]  fi_9007d.ttf
+│   │   │   ├── [ 60K Mar 31  1999]  fi_90081.ttf
+│   │   │   ├── [ 27K Jun 12  2003]  helveticaneueltstd-roman.otf
+│   │   │   ├── [ 42K May 12  2003]  itcgaramondstd-bk.otf
+│   │   │   ├── [ 35K Apr 25  2006]  s061013d.PFB
+│   │   │   ├── [4.9K Apr 25  2006]  s061013d.pfm
+│   │   │   ├── [ 50K May 12  2003]  stempelgaramondltstd-roman.otf
+│   │   │   └── [ 34K Jun 12  2003]  timesnewromanmtstd.otf
+│   │   ├── [1.2K Jan 24  2007]  Links
+│   │   │   ├── [2.5M May  2  2006]  AnatomyZndrCntr.eps
+│   │   │   ├── [108K Apr 25  2006]  C\ BRANDON\ NR1.tif
+│   │   │   ├── [3.1M Apr 25  2006]  C\ BRANDON\ NR2.tif
+│   │   │   ├── [5.2M Apr 23  2006]  C\ BRANDON\ NR3.tif
+│   │   │   ├── [627K May  3  2006]  C\ BRANDON\ NR4.eps
+│   │   │   ├── [645K May  3  2006]  C\ BRANDON\ NR5.eps
+│   │   │   ├── [640K May  3  2006]  C\ BRANDON\ NR6.eps
+│   │   │   ├── [ 33K Apr 26  2006]  C\ DAVY\ NR1.tif
+│   │   │   ├── [ 31K Apr 26  2006]  C\ DAVY\ NR2.tif
+│   │   │   ├── [ 33K Apr 26  2006]  C\ DAVY\ NR4.tif
+│   │   │   ├── [ 40K Apr 26  2006]  C\ DAVY\ NR5.tif
+│   │   │   ├── [3.8M May  2  2006]  C\ KIKI.tif
+│   │   │   ├── [ 24M May  4  2006]  C\ LITHO\ NR1.tif
+│   │   │   ├── [7.8M Apr 25  2006]  C\ MIA\ NR1.tif
+│   │   │   ├── [578K May  2  2006]  C\ RUBEN.eps
+│   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR1.tif
+│   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR2.tif
+│   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR3.tif
+│   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR4.tif
+│   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR5.tif
+│   │   │   ├── [1.5M Apr 23  2006]  C\ WIM\ NR6.tif
+│   │   │   ├── [713K May  2  2006]  Davy-bijdrage.eps
+│   │   │   ├── [ 238 Jan 24  2007]  Gutenberg\ B42\ PMS
+│   │   │   │   ├── [ 10M May  3  2006]  Gutenberg\ B42\ PMS.eps
+│   │   │   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS1
+│   │   │   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS2
+│   │   │   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS3
+│   │   │   │   └── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS4
+│   │   │   ├── [ 38K Apr 26  2006]  PG\ Logo.tif
+│   │   │   ├── [ 510 Jan 24  2007]  Plantin\ RIP
+│   │   │   │   ├── [627K May  3  2006]  C\ BRANDON\ NR4.eps
+│   │   │   │   ├── [645K May  3  2006]  C\ BRANDON\ NR5.eps
+│   │   │   │   ├── [9.5M May  4  2006]  Gutenberg\ B42\ PMS.eps
+│   │   │   │   ├── [2.6K May  4  2006]  PG\ SPECIMEN.xmp
+│   │   │   │   ├── [142M May  4  2006]  bakmarmer_pms_FM20.eps
+│   │   │   │   ├── [859K May  4  2006]  bakmarmer_quadri_AM133_rgb.tif
+│   │   │   │   ├── [786K May  4  2006]  bakmarmer_quadri_AM133vernis_rgb.tif
+│   │   │   │   ├── [1.3M May  4  2006]  bakmarmer_quadri_AM150_rgb.tif
+│   │   │   │   ├── [899K May  4  2006]  bakmarmer_quadri_AM150vernis_rgb.tif
+│   │   │   │   ├── [2.5M May  4  2006]  bakmarmer_quadri_AM220_rgb.tif
+│   │   │   │   ├── [1.7M May  4  2006]  bakmarmer_quadri_AM220vernis_rgb.tif
+│   │   │   │   ├── [ 84M May  4  2006]  bakmarmer_quadri_FM20_rgb.tif
+│   │   │   │   └── [1.4K Jan 24  2007]  raster\ tests
+│   │   │   │       ├── [660K May  3  2006]  bakmarmer_quadri_AM133_c.tif
+│   │   │   │       ├── [ 97M May  3  2006]  bakmarmer_quadri_AM133_cmyk_raster.psd
+│   │   │   │       ├── [5.7M May  3  2006]  bakmarmer_quadri_AM133_cmyk_raster.tif
+│   │   │   │       ├── [623K May  3  2006]  bakmarmer_quadri_AM133_k.tif
+│   │   │   │       ├── [710K May  3  2006]  bakmarmer_quadri_AM133_m.tif
+│   │   │   │       ├── [632K May  3  2006]  bakmarmer_quadri_AM133_y.tif
+│   │   │   │       ├── [611K May  4  2006]  bakmarmer_quadri_AM133vernis_c.tif
+│   │   │   │       ├── [1.1M May  4  2006]  bakmarmer_quadri_AM133vernis_cmyk.tif
+│   │   │   │       ├── [3.3M May  4  2006]  bakmarmer_quadri_AM133vernis_cmyk_raster.tif
+│   │   │   │       ├── [572K May  4  2006]  bakmarmer_quadri_AM133vernis_k.tif
+│   │   │   │       ├── [647K May  4  2006]  bakmarmer_quadri_AM133vernis_m.tif
+│   │   │   │       ├── [577K May  4  2006]  bakmarmer_quadri_AM133vernis_y.tif
+│   │   │   │       ├── [979K May  4  2006]  bakmarmer_quadri_AM150_c.tif
+│   │   │   │       ├── [1.4M May  4  2006]  bakmarmer_quadri_AM150_cmyk.tif
+│   │   │   │       ├── [5.6M May  4  2006]  bakmarmer_quadri_AM150_cmyk_raster.tif
+│   │   │   │       ├── [686K May  4  2006]  bakmarmer_quadri_AM150_k.tif
+│   │   │   │       ├── [997K May  4  2006]  bakmarmer_quadri_AM150_m.tif
+│   │   │   │       ├── [782K May  4  2006]  bakmarmer_quadri_AM150_y.tif
+│   │   │   │       ├── [780K May  4  2006]  bakmarmer_quadri_AM150vernis_c.tif
+│   │   │   │       ├── [1.2M May  4  2006]  bakmarmer_quadri_AM150vernis_cmyk.tif
+│   │   │   │       ├── [4.2M May  4  2006]  bakmarmer_quadri_AM150vernis_cmyk_raster.tif
+│   │   │   │       ├── [684K May  4  2006]  bakmarmer_quadri_AM150vernis_k.tif
+│   │   │   │       ├── [842K May  4  2006]  bakmarmer_quadri_AM150vernis_m.tif
+│   │   │   │       ├── [521K May  4  2006]  bakmarmer_quadri_AM150vernis_y.tif
+│   │   │   │       ├── [911K May  4  2006]  bakmarmer_quadri_AM220_c.tif
+│   │   │   │       ├── [5.2M May  4  2006]  bakmarmer_quadri_AM220_cmyk_raster.tif
+│   │   │   │       ├── [702K May  4  2006]  bakmarmer_quadri_AM220_k.tif
+│   │   │   │       ├── [1001K May  4  2006]  bakmarmer_quadri_AM220_m.tif
+│   │   │   │       ├── [818K May  4  2006]  bakmarmer_quadri_AM220_y.tif
+│   │   │   │       ├── [847K May  4  2006]  bakmarmer_quadri_AM220vernis_c.tif
+│   │   │   │       ├── [2.4M May  4  2006]  bakmarmer_quadri_AM220vernis_cmyk.tif
+│   │   │   │       ├── [4.7M May  4  2006]  bakmarmer_quadri_AM220vernis_cmyk_raster.tif
+│   │   │   │       ├── [640K May  4  2006]  bakmarmer_quadri_AM220vernis_k.tif
+│   │   │   │       ├── [744K May  4  2006]  bakmarmer_quadri_AM220vernis_m.tif
+│   │   │   │       ├── [736K May  4  2006]  bakmarmer_quadri_AM220vernis_y.tif
+│   │   │   │       ├── [1.7M May  4  2006]  bakmarmer_quadri_FM_c.tif
+│   │   │   │       ├── [ 10M May  4  2006]  bakmarmer_quadri_FM_cmyk_raster.tif
+│   │   │   │       ├── [1.6M May  4  2006]  bakmarmer_quadri_FM_k.tif
+│   │   │   │       ├── [1.9M May  4  2006]  bakmarmer_quadri_FM_m.tif
+│   │   │   │       └── [1.8M May  4  2006]  bakmarmer_quadri_FM_y.tif
+│   │   │   ├── [239M Apr 27  2006]  bakmarmer\ CMYK.tif
+│   │   │   ├── [ 272 Jan 24  2007]  bakmarmer\ PMS
+│   │   │   │   ├── [9.4M Apr 27  2006]  bakmarmer\ PMS.eps
+│   │   │   │   ├── [1.7M Apr 27  2006]  bakmarmer\ PMS1
+│   │   │   │   ├── [1.9M Apr 27  2006]  bakmarmer\ PMS2
+│   │   │   │   ├── [1.9M Apr 27  2006]  bakmarmer\ PMS3
+│   │   │   │   ├── [1.9M Apr 27  2006]  bakmarmer\ PMS4
+│   │   │   │   └── [1.9M Apr 27  2006]  bakmarmer\ PMS5
+│   │   │   ├── [1.0K Jan 24  2007]  bakmarmer\ Plantin
+│   │   │   │   ├── [2.4K May  4  2006]  PMS\ SEPARATIE\ SPECIMEN.txt
+│   │   │   │   ├── [ 84M May  3  2006]  Plantin\ 2\ Quadri.tif
+│   │   │   │   ├── [ 84M May  1  2006]  Plantin.tif\ .tif
+│   │   │   │   ├── [ 84M Apr 29  2006]  bakmarmer\ Plantin\ blauw.tif
+│   │   │   │   ├── [ 84M Apr 29  2006]  bakmarmer\ Plantin\ bruin.tif
+│   │   │   │   ├── [ 84M Apr 29  2006]  bakmarmer\ Plantin\ geel.tif
+│   │   │   │   ├── [100M May  1  2006]  bakmarmer\ Plantin\ multichannel\ 1.psd
+│   │   │   │   ├── [105M May  1  2006]  bakmarmer\ Plantin\ multichannel\ 2.psd
+│   │   │   │   ├── [104M May  1  2006]  bakmarmer\ Plantin\ multichannel\ 3.psd
+│   │   │   │   ├── [ 92M May  1  2006]  bakmarmer\ Plantin\ multichannel\ 4.psd
+│   │   │   │   ├── [105M May  3  2006]  bakmarmer\ Plantin\ multichannel\ 5.psd
+│   │   │   │   ├── [102M May  3  2006]  bakmarmer\ Plantin\ multichannel\ 6.psd
+│   │   │   │   ├── [ 76M May  1  2006]  bakmarmer\ Plantin\ multichannel.psd
+│   │   │   │   ├── [ 28M Apr 29  2006]  bakmarmer\ Plantin\ zwart.tif
+│   │   │   │   ├── [ 62M May  3  2006]  bakmarmer_cmyk_impositie.eps
+│   │   │   │   ├── [ 18M May  3  2006]  bakmarmer_cmyk_impositie.tif
+│   │   │   │   ├── [148M May  4  2006]  bakmarmer_pms_FM20\ zonder\ blauw\ en\ zwart.eps
+│   │   │   │   ├── [148M May  3  2006]  bakmarmer_pms_FM20.eps
+│   │   │   │   ├── [652K May  3  2006]  bakmarmer_quadri_AM133_c.tif
+│   │   │   │   ├── [629K May  3  2006]  bakmarmer_quadri_AM133_k.tif
+│   │   │   │   ├── [655K May  3  2006]  bakmarmer_quadri_AM133_m.tif
+│   │   │   │   ├── [1.1M May  3  2006]  bakmarmer_quadri_AM133_rgb.tif
+│   │   │   │   ├── [579K May  3  2006]  bakmarmer_quadri_AM133_y.tif
+│   │   │   │   ├── [1.0M May  3  2006]  bakmarmer_quadri_AM133vernis_rgb.tif
+│   │   │   │   ├── [1.3M May  3  2006]  bakmarmer_quadri_AM150_rgb.tif
+│   │   │   │   ├── [1.2M May  3  2006]  bakmarmer_quadri_AM150vernis_rgb.tif
+│   │   │   │   ├── [2.5M May  3  2006]  bakmarmer_quadri_AM220_rgb.tif
+│   │   │   │   ├── [2.2M May  3  2006]  bakmarmer_quadri_AM220vernis_rgb.tif
+│   │   │   │   └── [ 84M May  3  2006]  bakmarmer_quadri_FM20_rgb.tif
+│   │   │   ├── [508K Apr 20  2006]  ligaturen.tif
+│   │   │   ├── [ 12K Apr 27  2006]  registermerk.tif
+│   │   │   ├── [234K Apr 21  2006]  rodenko.tif
+│   │   │   ├── [232K Apr 24  2006]  testbalk.tif
+│   │   │   └── [2.8M Apr 27  2006]  teststrip.tif
+│   │   ├── [ 18M May  4  2006]  PG\ Specimen.indd
+│   │   └── [6.0K Apr 27  2006]  PG\ Specimen.txt
+│   ├── [172M May  4  2006]  PG\ Specimen\ GVD.pdf
+│   ├── [ 44M May  4  2006]  PG\ Specimen\ Montage\ GVD\ compressie.pdf
+│   ├── [129M May  4  2006]  PG\ Specimen\ Montage\ GVD\ recto.pdf
+│   ├── [ 44M May  4  2006]  PG\ Specimen\ Montage\ GVD\ verso.pdf
+│   ├── [172M May  4  2006]  PG\ Specimen\ Montage\ GVD.pdf
+│   ├── [ 17M May  4  2006]  PG\ Specimen\ Montage\ Katern.indd
+│   ├── [2.5M Apr 28  2006]  PG\ Specimen\ Montage\ schermweergave.pdf
+│   └── [ 272 Mar  5 10:20]  Package\ voor\ Plantin
+│       ├── [ 204 Jan 24  2007]  PG\ Specimen\ Montage\ InDesign\ Package
+│       │   ├── [ 816 Feb  3  2007]  Fonts
+│       │   │   ├── [ 72K Oct 14  2003]  AGaramondPro-Bold.otf
+│       │   │   ├── [ 87K Oct 14  2003]  AGaramondPro-Italic.otf
+│       │   │   ├── [116K Oct 14  2003]  AGaramondPro-Regular.otf
+│       │   │   ├── [ 93K Oct 12  2003]  AGaramondPro-Semibold.otf
+│       │   │   ├── [ 76K Oct 12  2003]  AGaramondPro-SemiboldItalic.otf
+│       │   │   ├── [290K Aug 23  2001]  ARIAL.TTF
+│       │   │   ├── [192K Nov 10  1998]  GARA.TTF
+│       │   │   ├── [185K Nov 10  1998]  GARAIT.TTF
+│       │   │   ├── [340K Aug 23  2001]  TIMES.TTF
+│       │   │   ├── [ 65K Oct 14  2003]  TrajanPro-Regular.otf
+│       │   │   ├── [928K Feb  3  2007]  TrajanPro-Regular.ttx
+│       │   │   ├── [119K May 12  2003]  ajensonpro-ltdisp.otf
+│       │   │   ├── [ 62K Jun 12  2003]  bembostd.otf
+│       │   │   ├── [ 49K Mar 31  1999]  fi_9006c.ttf
+│       │   │   ├── [ 61K Mar 31  1999]  fi_9007d.ttf
+│       │   │   ├── [ 60K Mar 31  1999]  fi_90081.ttf
+│       │   │   ├── [ 27K Jun 12  2003]  helveticaneueltstd-roman.otf
+│       │   │   ├── [ 42K May 12  2003]  itcgaramondstd-bk.otf
+│       │   │   ├── [ 35K Apr 25  2006]  s061013d.PFB
+│       │   │   ├── [4.9K Apr 25  2006]  s061013d.pfm
+│       │   │   ├── [ 50K May 12  2003]  stempelgaramondltstd-roman.otf
+│       │   │   └── [ 34K Jun 12  2003]  timesnewromanmtstd.otf
+│       │   ├── [1.0K Jan 24  2007]  Links
+│       │   │   ├── [109K Apr 25  2006]  C\ BRANDON\ NR1.tif
+│       │   │   ├── [583K Apr 25  2006]  C\ BRANDON\ NR2.tif
+│       │   │   ├── [200K Apr 25  2006]  C\ BRANDON\ NR3.tif
+│       │   │   ├── [ 64K Apr 27  2006]  C\ BRANDON\ NR4.eps
+│       │   │   ├── [ 61K Apr 27  2006]  C\ BRANDON\ NR5.eps
+│       │   │   ├── [ 66K Apr 27  2006]  C\ BRANDON\ NR6.eps
+│       │   │   ├── [ 33K Apr 26  2006]  C\ DAVY\ NR1.tif
+│       │   │   ├── [ 31K Apr 26  2006]  C\ DAVY\ NR2.tif
+│       │   │   ├── [ 33K Apr 26  2006]  C\ DAVY\ NR4.tif
+│       │   │   ├── [ 40K Apr 26  2006]  C\ DAVY\ NR5.tif
+│       │   │   ├── [308K Apr 27  2006]  C\ LITHO\ NR1.tif
+│       │   │   ├── [210K Apr 27  2006]  C\ MIA\ NR1.tif
+│       │   │   ├── [ 79K Apr 25  2006]  C\ WIM\ NR1.tif
+│       │   │   ├── [ 77K Apr 25  2006]  C\ WIM\ NR2.tif
+│       │   │   ├── [ 76K Apr 25  2006]  C\ WIM\ NR3.tif
+│       │   │   ├── [ 78K Apr 25  2006]  C\ WIM\ NR4.tif
+│       │   │   ├── [ 77K Apr 25  2006]  C\ WIM\ NR5.tif
+│       │   │   ├── [ 76K Apr 25  2006]  C\ WIM\ NR6.tif
+│       │   │   ├── [ 238 Jan 24  2007]  Gutenberg\ B42\ PMS
+│       │   │   │   ├── [9.5M Apr 27  2006]  Gutenberg\ B42\ PMS.eps
+│       │   │   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS1
+│       │   │   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS2
+│       │   │   │   ├── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS3
+│       │   │   │   └── [2.3M Apr 27  2006]  Gutenberg\ B42\ PMS4
+│       │   │   ├── [ 38K Apr 26  2006]  PG\ Logo.tif
+│       │   │   ├── [ 22M Apr 27  2006]  PG\ Specimen\ GVD.pdf
+│       │   │   ├── [239M Apr 27  2006]  bakmarmer\ CMYK.tif
+│       │   │   ├── [ 272 Jan 24  2007]  bakmarmer\ PMS
+│       │   │   │   ├── [9.4M Apr 27  2006]  bakmarmer\ PMS.eps
+│       │   │   │   ├── [1.7M Apr 27  2006]  bakmarmer\ PMS1
+│       │   │   │   ├── [1.9M Apr 27  2006]  bakmarmer\ PMS2
+│       │   │   │   ├── [1.9M Apr 27  2006]  bakmarmer\ PMS3
+│       │   │   │   ├── [1.9M Apr 27  2006]  bakmarmer\ PMS4
+│       │   │   │   └── [1.9M Apr 27  2006]  bakmarmer\ PMS5
+│       │   │   ├── [508K Apr 20  2006]  ligaturen.tif
+│       │   │   ├── [ 12K Apr 27  2006]  registermerk.tif
+│       │   │   ├── [234K Apr 21  2006]  rodenko.tif
+│       │   │   ├── [232K Apr 24  2006]  testbalk.tif
+│       │   │   ├── [232K Apr 24  2006]  testbalk1.tif
+│       │   │   └── [2.8M Apr 27  2006]  teststrip.tif
+│       │   ├── [2.9K Apr 28  2006]  PG\ Specimen\ Instructies.txt
+│       │   └── [4.3M Apr 28  2006]  PG\ Specimen\ Montage\ Katern.indd
+│       ├── [8.1M Apr 28  2006]  PG\ Specimen\ Montage\ recto.pdf
+│       ├── [ 15M Apr 28  2006]  PG\ Specimen\ Montage\ verso.pdf
+│       ├── [ 23M Apr 28  2006]  PG\ Specimen\ Montage.pdf
+│       └── [2.4K May  9  2006]  PMS\ SEPARATIE\ SPECIMEN.txt
+├── [ 24K Mar 15  2006]  Lay.doc
+├── [232K Mar 20  2006]  Nieuwe\ Adobe\ Garamond.pdf
+├── [ 12M Apr 26  2006]  PG\ Specimen\ Brochure\ DEF.indd
+├── [ 11M Apr 26  2006]  PG\ Specimen\ Brochure\ DEF2.indd
+├── [8.1M Apr 26  2006]  PG\ Specimen\ Brochure\ DEF3.indd
+├── [8.9M Apr 26  2006]  PG\ Specimen\ Brochure\ DEF4.indd
+├── [9.9M Apr 27  2006]  PG\ Specimen\ Brochure\ DEF5.indd
+├── [9.3M Apr 27  2006]  PG\ Specimen\ Brochure\ DEF6.indd
+├── [ 12M Apr 27  2006]  PG\ Specimen\ Brochure\ DEF7.indd
+├── [9.3M Apr 27  2006]  PG\ Specimen\ Brochure\ DEF7a.indd
+├── [ 10M Apr 27  2006]  PG\ Specimen\ Brochure\ DEF8.indd
+├── [ 24K May 10  2006]  PG\ Specimen\ Voorwoord.doc
+├── [592K Apr 19  2006]  PGstatus1\ COMM.pdf
+├── [341K Mar 24  2006]  Specimen\ -\ Montage.pdf
+├── [ 24K Feb 26  2006]  Style\ sheet.doc
+├── [ 27K Apr 25  2006]  Tijdlijn.doc
+├── [ 136 Jan 24  2007]  Verslagen
+│   ├── [ 64K Feb 21  2006]  Verslag1.pdf
+│   └── [ 32K Feb 27  2006]  style\ sheet\ 2.pdf
+├── [ 22K Feb 28  2006]  Voorwoord.doc
+├── [1.1M Apr 24  2006]  Wilbert.indd
+├── [6.1M Apr 27  2006]  bakmarmer\ 1.psd
+├── [2.4M Apr 27  2006]  bakmarmer\ PMS\ detail\ N.psd
+├── [3.2M Apr 27  2006]  bakmarmer\ PMS\ detail.eps
+├── [2.4M Apr 27  2006]  bakmarmer\ PMS\ detail.psd
+├── [1.6M Apr 27  2006]  bakmarmer\ PMS\ detail.sitx
+├── [168K Apr 27  2006]  bakmarmer\ PMS.eps
+├── [5.8M Apr 27  2006]  bakmarmer\ PMS.psd
+├── [1.7M Apr 27  2006]  bakmarmer\ PMS1
+├── [1.9M Apr 27  2006]  bakmarmer\ PMS2
+├── [1.9M Apr 27  2006]  bakmarmer\ PMS3
+├── [1.9M Apr 27  2006]  bakmarmer\ PMS4
+├── [1.9M Apr 27  2006]  bakmarmer\ PMS5
+├── [5.9M Apr 27  2006]  bakmarmer\ quadri.psd
+├── [ 20M Apr 27  2006]  bakmarmer.eps
+├── [2.5M Apr 21  2006]  cover.indd
+├── [ 16K Mar 17  2006]  inventarisatie\ nproject\ 01.xls
+├── [1.4K Apr 28  2006]  mail.txt
+├── [424K Apr 27  2006]  screenshot.jpg
+├── [232K Apr 24  2006]  testbalk.tif
+├── [464K Apr 24  2006]  voorwoord.indd
+├── [ 162 Mar 13  2006]  ~$DOEN.doc
+├── [ 162 Mar 13  2006]  ~$bliografie.doc
+└── [ 162 Apr  7  2006]  ~$orwoord.doc
+
+54 directories, 645 files

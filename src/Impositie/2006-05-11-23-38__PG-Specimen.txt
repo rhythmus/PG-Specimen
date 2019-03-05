@@ -1,0 +1,102 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: PG Specimen Montage Katern BK.indd
+
+PACKAGE DATE: 11/05/2006 23:38
+Creation Date: 11/05/2006
+Modification Date: 11/05/2006
+
+CONTACT INFORMATION
+
+Company Name: RHYTHMVS. Grafisch Atelier
+Contact:
+Address:
+
+
+
+
+Phone:
+Fax:
+Email:
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page1, 2
+
+FONTS
+16 Fonts Used; 0 Missing, 16 Embedded, 0 Incomplete, 0 Protected
+
+Roman Fonts
+- Name: AGaramondPro-Bold; Type: ???, Status: Embedded
+- Name: AGaramondPro-BoldItalic; Type: ???, Status: Embedded
+- Name: AGaramondPro-Italic; Type: ???, Status: Embedded
+- Name: AGaramondPro-Regular; Type: ???, Status: Embedded
+- Name: AGaramondPro-Semibold; Type: ???, Status: Embedded
+- Name: AGaramondPro-SemiboldItalic; Type: ???, Status: Embedded
+- Name: ArialMT; Type: ???, Status: Embedded
+- Name: Garamond; Type: ???, Status: Embedded
+- Name: ITCGaramondStd-Bk; Type: ???, Status: Embedded
+- Name: MyriadPro-Cond; Type: ???, Status: Embedded
+- Name: MyriadPro-Light; Type: ???, Status: Embedded
+- Name: MyriadPro-Regular; Type: ???, Status: Embedded
+- Name: StempelGaramondLTStd-Roman; Type: ???, Status: Embedded
+- Name: Times-Roman; Type: ???, Status: Embedded
+- Name: TimesNewRomanMTStd; Type: ???, Status: Embedded
+- Name: TimesNewRomanPSMT; Type: ???, Status: Embedded
+
+
+COLORS AND INKS
+4 Process Inks; 5 Spot Inks
+CMS is OFF
+
+- Name and Type: Process Cyan; Angle: 15,000; Lines/Inch: 200,000
+- Name and Type: Process Magenta; Angle: 75,000; Lines/Inch: 200,000
+- Name and Type: Process Yellow; Angle: 0,000; Lines/Inch: 200,000
+- Name and Type: Process Black; Angle: 45,000; Lines/Inch: 200,000
+- Name and Type: PANTONE 1345 C; Angle: 45,000; Lines/Inch: 200,000
+- Name and Type: PANTONE 160 C; Angle: 45,000; Lines/Inch: 200,000
+- Name and Type: PANTONE 3035 C; Angle: 45,000; Lines/Inch: 200,000
+- Name and Type: PANTONE Warm Gray 2 C; Angle: 45,000; Lines/Inch: 200,000
+- Name and Type: VERNIS; Angle: 45,000; Lines/Inch: 200,000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 32 Links Found; 0 Modified, 0 Missing
+Images: 0 Embedded, 0 use RGB colour space
+
+
+PRINT SETTINGS
+PPD: Adobe PDF, (Adobe PDF)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: 1
+Proof: No
+Tiling: None
+Scale: Scale to fit page
+Page Position: Centre
+Printer's Marks: None
+Bleed: 0 in, 0 in, 0 in, 0 in
+Colour: Separations, 1 Inks Chosen to Print.
+Trapping Mode: None
+Send Image Data: All
+OPI/DCS Image Replacement: No
+Page Size: Custom: 500 mm x 700 mm
+Paper Dimensions: 0 mm x 0 mm
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. PG Specimen Montage Katern BK.indd; type: Adobe InDesign publication; size: 5180K
+2. PG Specimen GVD.pdf; type: Linked file; size: 299109K
